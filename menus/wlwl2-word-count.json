@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle wlwl2-word-count",
+        "command": "wlwl2-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "wlwl2-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "wlwl2-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
